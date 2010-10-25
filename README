@@ -1,0 +1,3 @@
+- Arrows from box E to box A imply data flow through each intermediate box. 
+example: git pull doesn't just dump files from remote into your workspace, it hits up the intermediate local repo, etc.
+- the big local repo box in the get-and-revert graph should probably be named better. I just wanted to represent the difference between master and origin/master, and how they both relate to the remote repo. Maybe name it just plain local?
